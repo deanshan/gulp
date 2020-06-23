@@ -1,0 +1,113 @@
+// 滚动条样式
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(30, 34, 54, 0.5);
+    border-radius: 10px;
+}
+body {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+// 字体大小
+.f12 {
+    font-size: .12rem;
+}
+.f14 {
+    font-size: .14rem;
+}
+.f16 {
+    font-size: .16rem;
+}
+.f18 {
+    font-size: .18rem;
+}
+.f20 {
+    font-size: .2rem;
+}
+.f24 {
+    font-size: .24rem;
+}
+.f30 {
+    font-size: .3rem;
+}
+// 方向
+.flex-row {
+    display: flex;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+// 分布
+.flex-auto {
+    flex: auto;
+}
+.flex-shrink {
+    flex-shrink: 0;
+}
+//水平方向(垂直居中)
+.row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.row-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.row-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+//垂直方向(水平居中)
+.column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.column-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.column-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.column-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
